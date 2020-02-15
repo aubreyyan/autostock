@@ -6,7 +6,5 @@ phases:
       - printenv
   build:
     commands:
-      - docker build -t compose-flask compose_flask/
-  post_build:
-    commands:
-      - docker-compose up
+      - docker build -t autostock .
+      - docker-compose up -d
