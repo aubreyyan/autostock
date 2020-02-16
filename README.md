@@ -1,5 +1,7 @@
 # autostock api
 
+[![Build Status](https://travis-ci.org/aubrey-y/autostock.svg?branch=master)](https://travis-ci.org/aubrey-y/autostock)
+
 Make sure to set up your `.env` file before running anything in docker.
 
 If running in `production` environment locally, ensure your PyCharm run configuration has set environment variables.
