@@ -13,4 +13,4 @@ If you run from terminal, you should manually export the variables. However, the
 
 `pip install -r requirements.txt`
 
-`python run.py`
+`python application.py`
