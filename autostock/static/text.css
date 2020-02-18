@@ -1,7 +1,6 @@
 h1 {
     color: darkseagreen;
     padding-top: 10px;
-    font-size: 50px;
     font-family: 'Audiowide', cursive;
     position: relative;
     z-index: 1000;
@@ -20,4 +19,45 @@ h1:hover {
 
 a {
     text-decoration: none;
+}
+
+body{
+    padding: 40px;
+}
+
+p {
+    color: white;
+    position: absolute;
+}
+
+@media (max-width: 960px){
+    h1, a {
+        font-size: medium;
+    }
+
+    h1 {
+        padding-top: 20px;
+    }
+
+    p {
+        font-size: 5vh;
+        top: 20%;
+    }
+}
+
+@media (min-width: 961px){
+    h1, a {
+        font-size: 50px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: xx-large;
+        top: 40%;
+        padding-left: 50px;
+        width: 400px;
+    }
 }
