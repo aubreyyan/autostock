@@ -1,5 +1,5 @@
 # git+https://github.com/Jamonek/Robinhood.git
 Flask==1.1.1
-requests==2.22.0
+requests==2.31.0
 pytest==5.3.5
 awsebcli==3.17.1
